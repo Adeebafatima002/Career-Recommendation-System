@@ -5,7 +5,7 @@ public class CareerRecommendation {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int studentCount = 5;
+        int studentCount = 8;
 
         while (studentCount > 0) {
 
