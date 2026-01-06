@@ -17,7 +17,11 @@ public class CareerRecommendation {
             } else {
                 System.out.println("Recommend Industry-Oriented Career");
             }
-
+            if (gpa < 0 || gpa > 4.0) {
+               System.out.println("Invalid GPA: must be between 0 and 4.0");
+           } else {
+               System.out.println("GPA is valid: " + gpa);
+            }
             studentCount--;
         }
 
