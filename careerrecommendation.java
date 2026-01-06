@@ -12,7 +12,7 @@ public class CareerRecommendation {
             System.out.print("Enter GPA: ");
             double gpa = sc.nextDouble();
 
-            if (gpa >= 3.5) {
+            if (gpa >= 3.7) {
                 System.out.println("Recommend Research or Higher Studies");
             } else {
                 System.out.println("Recommend Industry-Oriented Career");
